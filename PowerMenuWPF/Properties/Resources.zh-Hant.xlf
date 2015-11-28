@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="zh-Hant" original="Resources.resx" tool-id="MultilingualAppToolkit" product-name="PowerMenuWPF" product-version="1.0.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="3.1.1250.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit id="Resx/AppName" translate="yes" xml:space="preserve">
+          <source>Power Menu</source>
+          <target state="translated">電源選單</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
+          <source>Power Menu</source>
+          <target state="translated">電源選單</target>
+        </trans-unit>
+        <trans-unit id="Resx/btnHibernate" translate="yes" xml:space="preserve">
+          <source>Hibernate</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">休眠</target>
+        </trans-unit>
+        <trans-unit id="Resx/btnLock" translate="yes" xml:space="preserve">
+          <source>Lock</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">鎖定</target>
+        </trans-unit>
+        <trans-unit id="Resx/btnLogOff" translate="yes" xml:space="preserve">
+          <source>Log Off</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">登出</target>
+        </trans-unit>
+        <trans-unit id="Resx/btnRestart" translate="yes" xml:space="preserve">
+          <source>Restart</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">重新啟動</target>
+        </trans-unit>
+        <trans-unit id="Resx/btnShutDown" translate="yes" xml:space="preserve">
+          <source>Power Off</source>
+          <target state="signed-off">關機</target>
+        </trans-unit>
+        <trans-unit id="Resx/btnSleep" translate="yes" xml:space="preserve">
+          <source>Sleep</source>
+          <target state="signed-off">睡眠</target>
+        </trans-unit>
+        <trans-unit id="Resx/Developer" translate="no" xml:space="preserve">
+          <source>CM Products</source>
+          <target state="signed-off">CM Products</target>
+        </trans-unit>
+        <trans-unit id="Resx/cbxConfirmMsg" translate="yes" xml:space="preserve">
+          <source>Confirmation Message</source>
+          <target state="translated" state-qualifier="mt-suggestion">確認訊息</target>
+        </trans-unit>
+        <trans-unit id="Resx/gpOption" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target state="translated" state-qualifier="mt-suggestion">選項</target>
+        </trans-unit>
+        <trans-unit id="Resx/lblDeveloper" translate="no" xml:space="preserve">
+          <source>Made by CM Products</source>
+          <target state="signed-off">Made by CM Products</target>
+        </trans-unit>
+        <trans-unit id="Resx/lblWaitTime" translate="yes" xml:space="preserve">
+          <source>Waiting Time (in Second):</source>
+          <target state="translated">等候時間 (秒):</target>
+        </trans-unit>
+        <trans-unit id="Resx/muAbout" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">關於</target>
+        </trans-unit>
+        <trans-unit id="Resx/muControl" translate="yes" xml:space="preserve">
+          <source>Control</source>
+          <target state="signed-off">控制</target>
+        </trans-unit>
+        <trans-unit id="Resx/muExit" translate="yes" xml:space="preserve">
+          <source>Exit</source>
+          <target state="signed-off">離開</target>
+        </trans-unit>
+        <trans-unit id="Resx/muHelp" translate="yes" xml:space="preserve">
+          <source>Help</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">說明</target>
+        </trans-unit>
+        <trans-unit id="Resx/muLanguage" translate="no" xml:space="preserve">
+          <source>Languages</source>
+          <target state="signed-off">Languages</target>
+        </trans-unit>
+        <trans-unit id="Resx/strWarningTitle" translate="yes" xml:space="preserve">
+          <source>Warning</source>
+          <target state="translated" state-qualifier="mt-suggestion">警告</target>
+        </trans-unit>
+        <trans-unit id="Resx/tsTimeout" translate="yes" xml:space="preserve">
+          <source>Set timeout before processing power cycle</source>
+          <target state="translated">設定執行電源控制前的等待時間</target>
+        </trans-unit>
+        <trans-unit id="Resx/tsSupportVistaAbove" translate="yes" xml:space="preserve">
+          <source>Only support Windows Vista or above</source>
+          <target state="translated">只支援 Windows Vista 或以上</target>
+        </trans-unit>
+        <trans-unit id="Resx/tsSleep" translate="yes" xml:space="preserve">
+          <source>Sleep the computer</source>
+          <target state="translated">把這台電腦設為睡眠狀態</target>
+        </trans-unit>
+        <trans-unit id="Resx/tsShutdown" translate="yes" xml:space="preserve">
+          <source>Power off the computer</source>
+          <target state="translated">關閉這台電腦</target>
+        </trans-unit>
+        <trans-unit id="Resx/tsReboot" translate="yes" xml:space="preserve">
+          <source>Reboot the computer</source>
+          <target state="translated">重新啟動這台電腦</target>
+        </trans-unit>
+        <trans-unit id="Resx/tsLogoff" translate="yes" xml:space="preserve">
+          <source>Log off from the computer</source>
+          <target state="translated">登出這台電腦</target>
+        </trans-unit>
+        <trans-unit id="Resx/tsLock" translate="yes" xml:space="preserve">
+          <source>Lock the computer</source>
+          <target state="translated">鎖定這台電腦</target>
+        </trans-unit>
+        <trans-unit id="Resx/tsHibernate" translate="yes" xml:space="preserve">
+          <source>Hibernate the computer</source>
+          <target state="translated">把這台電腦設為休眠狀態</target>
+        </trans-unit>
+        <trans-unit id="Resx/tsConfirmMsg" translate="yes" xml:space="preserve">
+          <source>Show confirmation message before processing power cycle</source>
+          <target state="translated">在執行電源控制前顯示確認訊息</target>
+        </trans-unit>
+        <trans-unit id="Resx/strShutdownComment" translate="yes" xml:space="preserve">
+          <source>The computer is going to be turned off. Please save and close all opening files.</source>
+          <target state="translated">電腦即將關閉。請儲存並關閉所有已開啟的檔案。</target>
+        </trans-unit>
+        <trans-unit id="Resx/strRebootComment" translate="yes" xml:space="preserve">
+          <source>The computer is going to be restarted. Please save and close all opening files.</source>
+          <target state="translated">電腦即將重新啟動。請儲存並關閉所有已開啟的檔案。</target>
+        </trans-unit>
+        <trans-unit id="Resx/strInfoTitle" translate="yes" xml:space="preserve">
+          <source>Information</source>
+          <target state="translated">提示</target>
+        </trans-unit>
+        <trans-unit id="Resx/strConfirmSleep" translate="yes" xml:space="preserve">
+          <source>Are you sure to sleep the computer?</source>
+          <target state="translated">您是否要把這台電腦設為睡眠狀態?</target>
+        </trans-unit>
+        <trans-unit id="Resx/strConfirmShutdown" translate="yes" xml:space="preserve">
+          <source>Are you sure to shutdown the computer?</source>
+          <target state="translated">您是否要關閉這台電腦?</target>
+        </trans-unit>
+        <trans-unit id="Resx/strConfirmReboot" translate="yes" xml:space="preserve">
+          <source>Are you sure to reboot the computer?</source>
+          <target state="translated">您是否要重新啟動這台電腦?</target>
+        </trans-unit>
+        <trans-unit id="Resx/strConfirmLogoff" translate="yes" xml:space="preserve">
+          <source>Are you sure to log off from the computer?</source>
+          <target state="translated">您是否要登出這台電腦?</target>
+        </trans-unit>
+        <trans-unit id="Resx/strConfirmLock" translate="yes" xml:space="preserve">
+          <source>Are you sure to lock the computer?</source>
+          <target state="translated">您是否要鎖定這台電腦?</target>
+        </trans-unit>
+        <trans-unit id="Resx/strConfirmHibernate" translate="yes" xml:space="preserve">
+          <source>Are you sure to hibernate the computer?</source>
+          <target state="translated">您是否要把這台電腦設為休眠狀態?</target>
+        </trans-unit>
+        <trans-unit id="Resx/strComment" translate="yes" xml:space="preserve">
+          <source>Power Menu - Users Action</source>
+          <target state="translated">電源選單 - 使用者動作</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,78 @@
+﻿<Window x:Class="PowerMenuWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:properties="clr-namespace:PowerMenuWPF.Properties" 
+        xmlns:local="clr-namespace:PowerMenuWPF"
+        mc:Ignorable="d"
+        Title="{x:Static properties:Resources.AppTitle}" Height="450" Width="450" Opacity="0.895" ResizeMode="NoResize" SnapsToDevicePixels="True" WindowStartupLocation="CenterScreen" Topmost="True" Closing="Window_Closing">
+    <DockPanel>
+        <Menu IsMainMenu="True" DockPanel.Dock="Top">
+            <MenuItem Header="{x:Static properties:Resources.muControl}">
+                <MenuItem Header="{x:Static properties:Resources.muLanguage}">
+                    <MenuItem x:Name="tmiEng" Header="English" Click="SwitchLanguage_Click" Tag="en" />
+                    <MenuItem x:Name="tmiZH" Header="繁體中文" Click="SwitchLanguage_Click" Tag="zh_hk" />
+                </MenuItem>                
+                <MenuItem x:Name="tmiExit" Header="{x:Static properties:Resources.muExit}" Click="tmiExit_Click" />
+            </MenuItem>
+            <MenuItem Header="{x:Static properties:Resources.muHelp}">
+                <MenuItem Header="{x:Static properties:Resources.muHelp}" Visibility="Collapsed" />
+                <MenuItem Header="{x:Static properties:Resources.muAbout}" />
+            </MenuItem>
+        </Menu>
+        <StatusBar DockPanel.Dock="Bottom">
+            <StatusBarItem>
+                <TextBlock Name="tlblWindowsVersion" Text="#WINDOWS#"/>
+            </StatusBarItem>
+            <StatusBarItem HorizontalAlignment="Right">
+                <TextBlock x:Name="tlblDeveloper" Text="{x:Static properties:Resources.lblDeveloper}" MouseLeftButtonDown="tlblDeveloper_MouseLeftButtonDown" Cursor="Hand" />
+            </StatusBarItem>
+        </StatusBar>
+        <Grid>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*" />
+                    <RowDefinition Height="2*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Button Grid.Row="0" Grid.Column="0" x:Name="btnShutDown" Content="{x:Static properties:Resources.btnShutDown}" HorizontalAlignment="Stretch" Margin="4,4,4,4" VerticalAlignment="Stretch" Click="btnShutDown_Click" ToolTip="{x:Static properties:Resources.tsShutdown}" Cursor="Hand" FontSize="18" />
+                <Button Grid.Row="0" Grid.Column="1" x:Name="btnRestart" Content="{x:Static properties:Resources.btnRestart}" HorizontalAlignment="Stretch" Margin="4,4,4,4" VerticalAlignment="Stretch" Click="btnRestart_Click" ToolTip="{x:Static properties:Resources.tsReboot}" Cursor="Hand" FontSize="18" />
+                <Button Grid.Row="0" Grid.Column="2" x:Name="btnLogOff" Content="{x:Static properties:Resources.btnLogOff}" HorizontalAlignment="Stretch" Margin="4,4,4,4" VerticalAlignment="Stretch" Click="btnLogOff_Click" ToolTip="{x:Static properties:Resources.tsLogoff}" FontSize="18" />
+                <Button Grid.Row="1" Grid.Column="0" x:Name="btnSleep" Content="{x:Static properties:Resources.btnSleep}" HorizontalAlignment="Stretch" Margin="4,4,4,4" VerticalAlignment="Stretch" Click="btnSleep_Click" ToolTip="{x:Static properties:Resources.tsSleep}" Cursor="" FontSize="18" />
+                <Button Grid.Row="1" Grid.Column="1" x:Name="btnHibernate" Content="{x:Static properties:Resources.btnHibernate}" HorizontalAlignment="Stretch" Margin="4,4,4,4" VerticalAlignment="Stretch" Click="btnHibernate_Click" ToolTip="{x:Static properties:Resources.tsHibernate}" Cursor="" FontSize="18" />
+                <Button Grid.Row="1" Grid.Column="2" x:Name="btnLock" Content="{x:Static properties:Resources.btnLock}" HorizontalAlignment="Stretch" Margin="4,4,4,4" VerticalAlignment="Stretch" Click="btnLock_Click" ToolTip="{x:Static properties:Resources.tsLock}" Cursor="Hand" FontSize="18" />
+
+                <GroupBox Grid.Row="2" Grid.ColumnSpan="3" Header="{x:Static properties:Resources.gpOption}" HorizontalAlignment="Stretch" Margin="4,4,4,4" VerticalAlignment="Stretch">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        
+                        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center">
+                            <TextBlock Text="{x:Static properties:Resources.lblWaitTime}" Height="Auto" VerticalAlignment="Center" Margin="5, 0" ToolTip="{x:Static properties:Resources.tsSupportVistaAbove}" />
+                            <ComboBox x:Name="cbxWaitTime" Width="100" Height="Auto" VerticalAlignment="Center" Margin="5, 0">
+                                <ComboBoxItem>0</ComboBoxItem>
+                                <ComboBoxItem>5</ComboBoxItem>
+                                <ComboBoxItem IsSelected="True">10</ComboBoxItem>
+                                <ComboBoxItem>30</ComboBoxItem>
+                                <ComboBoxItem>60</ComboBoxItem>
+                                <ComboBoxItem>90</ComboBoxItem>
+                                <ComboBoxItem>120</ComboBoxItem>
+                                <ComboBoxItem>150</ComboBoxItem>
+                                <ComboBoxItem>180</ComboBoxItem>                                
+                            </ComboBox>
+                        </StackPanel>
+                        <CheckBox x:Name="cbxShowConfirmMsg" Content="{x:Static properties:Resources.cbxConfirmMsg}" HorizontalAlignment="Right" Margin="4,4,4,4" Grid.Row="1" VerticalAlignment="Center" ToolTip="{x:Static properties:Resources.tsConfirmMsg}" />
+                    </Grid>
+                </GroupBox>
+            </Grid>
+        </Grid>
+    </DockPanel>
+</Window>

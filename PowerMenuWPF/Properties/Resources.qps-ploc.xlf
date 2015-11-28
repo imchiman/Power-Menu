@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="qps-ploc" original="Resources.resx" tool-id="MultilingualAppToolkit" product-name="PowerMenuWPF" product-version="1.0.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="3.1.1250.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit id="Resx/AppName" translate="yes" xml:space="preserve">
+          <source>Power Menu</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[7CB12][!!_Рôŵéŗ Мêηù_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
+          <source>Power Menu</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[A892A][!!_Рôŵêŕ Мęйû_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/btnHibernate" translate="yes" xml:space="preserve">
+          <source>Hibernate</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[D6D8F][!!_Ήìьéŕηáтę_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/btnLock" translate="yes" xml:space="preserve">
+          <source>Lock</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[4EE1F][!!_Ŀóĉќ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/btnLogOff" translate="yes" xml:space="preserve">
+          <source>Log Off</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[969A3][!!_Ľóġ Óƒƒ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/btnRestart" translate="yes" xml:space="preserve">
+          <source>Restart</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[FFEBE][!!_Ŗèŝťãѓт_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/btnShutDown" translate="yes" xml:space="preserve">
+          <source>Power Off</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[2D2FC][!!_Рõẃéŗ Ôƒƒ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/btnSleep" translate="yes" xml:space="preserve">
+          <source>Sleep</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[03025][!!_Şłêèρ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Developer" translate="yes" xml:space="preserve">
+          <source>CM Products</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[E2D40][!!_ČΜ Ρřõðúćťş_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/muLanguage" translate="yes" xml:space="preserve">
+          <source>Languages</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[80D90][!!_Ļâйĝûàğéš_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/strWarningTitle" translate="yes" xml:space="preserve">
+          <source>Warning</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[99459][!!_Ẁãŕηìиğ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/tsTimeout" translate="yes" xml:space="preserve">
+          <source>Set timeout before processing power cycle</source>
+          <target state="new">Set timeout before processing power cycle</target>
+        </trans-unit>
+        <trans-unit id="Resx/tsSupportVistaAbove" translate="yes" xml:space="preserve">
+          <source>Only support Windows Vista or above</source>
+          <target state="new">Only support Windows Vista or above</target>
+        </trans-unit>
+        <trans-unit id="Resx/tsSleep" translate="yes" xml:space="preserve">
+          <source>Sleep the computer</source>
+          <target state="new">Sleep the computer</target>
+        </trans-unit>
+        <trans-unit id="Resx/tsShutdown" translate="yes" xml:space="preserve">
+          <source>Power off the computer</source>
+          <target state="new">Power off the computer</target>
+        </trans-unit>
+        <trans-unit id="Resx/tsReboot" translate="yes" xml:space="preserve">
+          <source>Reboot the computer</source>
+          <target state="new">Reboot the computer</target>
+        </trans-unit>
+        <trans-unit id="Resx/tsLogoff" translate="yes" xml:space="preserve">
+          <source>Log off from the computer</source>
+          <target state="new">Log off from the computer</target>
+        </trans-unit>
+        <trans-unit id="Resx/tsLock" translate="yes" xml:space="preserve">
+          <source>Lock the computer</source>
+          <target state="new">Lock the computer</target>
+        </trans-unit>
+        <trans-unit id="Resx/tsHibernate" translate="yes" xml:space="preserve">
+          <source>Hibernate the computer</source>
+          <target state="new">Hibernate the computer</target>
+        </trans-unit>
+        <trans-unit id="Resx/tsConfirmMsg" translate="yes" xml:space="preserve">
+          <source>Show confirmation message before processing power cycle</source>
+          <target state="new">Show confirmation message before processing power cycle</target>
+        </trans-unit>
+        <trans-unit id="Resx/strShutdownComment" translate="yes" xml:space="preserve">
+          <source>The computer is going to be turned off. Please save and close all opening files.</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[57CED][!!_Тнè ćõмρûťêř ìś ġôįиġ ţó ъê ťúŗиèď óƒƒ. Рľéáşè şâνê ãηđ ċľôŝê âľľ õрéήìήġ ƒîłęś._!!!!!!!!!!!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/strRebootComment" translate="yes" xml:space="preserve">
+          <source>The computer is going to be restarted. Please save and close all opening files.</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[9E184][!!_Тћę ċómþùţêŕ įŝ ğòîйģ ťõ вê ѓèšтáѓťèď. Рłèãŝê śàνé áйð ĉľòśè áļļ ôрèиįήģ ƒíłèş._!!!!!!!!!!!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/strInfoTitle" translate="yes" xml:space="preserve">
+          <source>Information</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[FC906][!!_Ìηƒómáťíóή_!!]</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/strConfirmSleep" translate="yes" xml:space="preserve">
+          <source>Are you sure to sleep the computer?</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[9F632][!!_Ãѓê Уóú ŝùŗé ťõ ŝĺèęþ τħę čõмрúτęѓ?_!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/strConfirmShutdown" translate="yes" xml:space="preserve">
+          <source>Are you sure to shutdown the computer?</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[A3231][!!_Âŗé Уôû ŝµŕè τõ şħùтďóẅи ťнé ĉômρùťêŗ?_!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/strConfirmReboot" translate="yes" xml:space="preserve">
+          <source>Are you sure to reboot the computer?</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[816A5][!!_Âѓé ÿòú şµѓę ţó ŕêьõòţ ţħè ćómρµţèŕ?_!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/strConfirmLogoff" translate="yes" xml:space="preserve">
+          <source>Are you sure to log off from the computer?</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[75DA3][!!_Áŕę ўõµ śùřê τô ļóġ òƒƒ ƒŕòм ţђé ćõmρúţéř?_!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/strConfirmLock" translate="yes" xml:space="preserve">
+          <source>Are you sure to lock the computer?</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[F671E][!!_Ãŗè ÿóú šûѓê ťõ ľôčк тħé ĉõmþûţęř?_!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/strConfirmHibernate" translate="yes" xml:space="preserve">
+          <source>Are you sure to hibernate the computer?</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[412AB][!!_Àřé ÿõû şûŗé ťô нîъéřήãтè τћè ćómрûτêѓ?_!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/strComment" translate="yes" xml:space="preserve">
+          <source>Power Menu - Users Action</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[276A4][!!_Ρóŵèѓ Мèηµ - Ûšêŕş Âćтîõή_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/muHelp" translate="yes" xml:space="preserve">
+          <source>Help</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[6F297][!!_Нêļþ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/muExit" translate="yes" xml:space="preserve">
+          <source>Exit</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[F6A8A][!!_Ê×îт_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/muControl" translate="yes" xml:space="preserve">
+          <source>Control</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[4BF55][!!_Ćòиťѓõľ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/muAbout" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[E2F00][!!_ÂБóúт_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/lblWaitTime" translate="yes" xml:space="preserve">
+          <source>Waiting Time (in Second):</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[57991][!!_Ẃàįтìиğ Τîmè (ìи Şèċòиď):_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/lblDeveloper" translate="yes" xml:space="preserve">
+          <source>Made by CM Products</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[4D04C][!!_Мãðê вУ ĈΜ Ρřòðùĉτś_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/cbxConfirmMsg" translate="yes" xml:space="preserve">
+          <source>Confirmation Message</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[BF1E4][!!_Ćõηƒíѓmãţìôη Мęššáġè_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/gpOption" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[45EE8][!!_Óртíòηş_!!]</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
