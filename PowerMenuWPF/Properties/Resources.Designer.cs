@@ -22,7 +22,7 @@ namespace PowerMenuWPF.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class Resources {
+    internal class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace PowerMenuWPF.Properties {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Resources.ResourceManager ResourceManager {
+        internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("PowerMenuWPF.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace PowerMenuWPF.Properties {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Globalization.CultureInfo Culture {
+        internal static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -61,9 +61,19 @@ namespace PowerMenuWPF.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap app_icons {
+            get {
+                object obj = ResourceManager.GetObject("app_icons", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Power Menu.
         /// </summary>
-        public static string AppName {
+        internal static string AppName {
             get {
                 return ResourceManager.GetString("AppName", resourceCulture);
             }
@@ -72,7 +82,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Power Menu.
         /// </summary>
-        public static string AppTitle {
+        internal static string AppTitle {
             get {
                 return ResourceManager.GetString("AppTitle", resourceCulture);
             }
@@ -81,7 +91,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Hibernate.
         /// </summary>
-        public static string btnHibernate {
+        internal static string btnHibernate {
             get {
                 return ResourceManager.GetString("btnHibernate", resourceCulture);
             }
@@ -90,7 +100,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Lock.
         /// </summary>
-        public static string btnLock {
+        internal static string btnLock {
             get {
                 return ResourceManager.GetString("btnLock", resourceCulture);
             }
@@ -99,7 +109,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Log Off.
         /// </summary>
-        public static string btnLogOff {
+        internal static string btnLogOff {
             get {
                 return ResourceManager.GetString("btnLogOff", resourceCulture);
             }
@@ -108,7 +118,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Restart.
         /// </summary>
-        public static string btnRestart {
+        internal static string btnRestart {
             get {
                 return ResourceManager.GetString("btnRestart", resourceCulture);
             }
@@ -117,7 +127,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Power Off.
         /// </summary>
-        public static string btnShutDown {
+        internal static string btnShutDown {
             get {
                 return ResourceManager.GetString("btnShutDown", resourceCulture);
             }
@@ -126,7 +136,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Sleep.
         /// </summary>
-        public static string btnSleep {
+        internal static string btnSleep {
             get {
                 return ResourceManager.GetString("btnSleep", resourceCulture);
             }
@@ -135,7 +145,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Confirmation Message.
         /// </summary>
-        public static string cbxConfirmMsg {
+        internal static string cbxConfirmMsg {
             get {
                 return ResourceManager.GetString("cbxConfirmMsg", resourceCulture);
             }
@@ -144,7 +154,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to CM Products.
         /// </summary>
-        public static string Developer {
+        internal static string Developer {
             get {
                 return ResourceManager.GetString("Developer", resourceCulture);
             }
@@ -153,7 +163,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Options.
         /// </summary>
-        public static string gpOption {
+        internal static string gpOption {
             get {
                 return ResourceManager.GetString("gpOption", resourceCulture);
             }
@@ -162,7 +172,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Made by CM Products.
         /// </summary>
-        public static string lblDeveloper {
+        internal static string lblDeveloper {
             get {
                 return ResourceManager.GetString("lblDeveloper", resourceCulture);
             }
@@ -171,7 +181,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Waiting Time (in Second):.
         /// </summary>
-        public static string lblWaitTime {
+        internal static string lblWaitTime {
             get {
                 return ResourceManager.GetString("lblWaitTime", resourceCulture);
             }
@@ -180,7 +190,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to About.
         /// </summary>
-        public static string muAbout {
+        internal static string muAbout {
             get {
                 return ResourceManager.GetString("muAbout", resourceCulture);
             }
@@ -189,7 +199,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Control.
         /// </summary>
-        public static string muControl {
+        internal static string muControl {
             get {
                 return ResourceManager.GetString("muControl", resourceCulture);
             }
@@ -198,7 +208,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Exit.
         /// </summary>
-        public static string muExit {
+        internal static string muExit {
             get {
                 return ResourceManager.GetString("muExit", resourceCulture);
             }
@@ -207,7 +217,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Help.
         /// </summary>
-        public static string muHelp {
+        internal static string muHelp {
             get {
                 return ResourceManager.GetString("muHelp", resourceCulture);
             }
@@ -216,7 +226,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Languages.
         /// </summary>
-        public static string muLanguage {
+        internal static string muLanguage {
             get {
                 return ResourceManager.GetString("muLanguage", resourceCulture);
             }
@@ -225,7 +235,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Power Menu - Users Action.
         /// </summary>
-        public static string strComment {
+        internal static string strComment {
             get {
                 return ResourceManager.GetString("strComment", resourceCulture);
             }
@@ -234,7 +244,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Are you sure to hibernate the computer?.
         /// </summary>
-        public static string strConfirmHibernate {
+        internal static string strConfirmHibernate {
             get {
                 return ResourceManager.GetString("strConfirmHibernate", resourceCulture);
             }
@@ -243,7 +253,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Are you sure to lock the computer?.
         /// </summary>
-        public static string strConfirmLock {
+        internal static string strConfirmLock {
             get {
                 return ResourceManager.GetString("strConfirmLock", resourceCulture);
             }
@@ -252,7 +262,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Are you sure to log off from the computer?.
         /// </summary>
-        public static string strConfirmLogoff {
+        internal static string strConfirmLogoff {
             get {
                 return ResourceManager.GetString("strConfirmLogoff", resourceCulture);
             }
@@ -261,7 +271,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Are you sure to reboot the computer?.
         /// </summary>
-        public static string strConfirmReboot {
+        internal static string strConfirmReboot {
             get {
                 return ResourceManager.GetString("strConfirmReboot", resourceCulture);
             }
@@ -270,7 +280,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Are you sure to shutdown the computer?.
         /// </summary>
-        public static string strConfirmShutdown {
+        internal static string strConfirmShutdown {
             get {
                 return ResourceManager.GetString("strConfirmShutdown", resourceCulture);
             }
@@ -279,7 +289,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Are you sure to sleep the computer?.
         /// </summary>
-        public static string strConfirmSleep {
+        internal static string strConfirmSleep {
             get {
                 return ResourceManager.GetString("strConfirmSleep", resourceCulture);
             }
@@ -288,7 +298,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Information.
         /// </summary>
-        public static string strInfoTitle {
+        internal static string strInfoTitle {
             get {
                 return ResourceManager.GetString("strInfoTitle", resourceCulture);
             }
@@ -297,7 +307,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to The computer is going to be restarted. Please save and close all opening files..
         /// </summary>
-        public static string strRebootComment {
+        internal static string strRebootComment {
             get {
                 return ResourceManager.GetString("strRebootComment", resourceCulture);
             }
@@ -306,7 +316,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to The computer is going to be turned off. Please save and close all opening files..
         /// </summary>
-        public static string strShutdownComment {
+        internal static string strShutdownComment {
             get {
                 return ResourceManager.GetString("strShutdownComment", resourceCulture);
             }
@@ -315,7 +325,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Warning.
         /// </summary>
-        public static string strWarningTitle {
+        internal static string strWarningTitle {
             get {
                 return ResourceManager.GetString("strWarningTitle", resourceCulture);
             }
@@ -324,7 +334,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Show confirmation message before processing power cycle.
         /// </summary>
-        public static string tsConfirmMsg {
+        internal static string tsConfirmMsg {
             get {
                 return ResourceManager.GetString("tsConfirmMsg", resourceCulture);
             }
@@ -333,7 +343,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Hibernate the computer.
         /// </summary>
-        public static string tsHibernate {
+        internal static string tsHibernate {
             get {
                 return ResourceManager.GetString("tsHibernate", resourceCulture);
             }
@@ -342,7 +352,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Lock the computer.
         /// </summary>
-        public static string tsLock {
+        internal static string tsLock {
             get {
                 return ResourceManager.GetString("tsLock", resourceCulture);
             }
@@ -351,7 +361,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Log off from the computer.
         /// </summary>
-        public static string tsLogoff {
+        internal static string tsLogoff {
             get {
                 return ResourceManager.GetString("tsLogoff", resourceCulture);
             }
@@ -360,7 +370,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Reboot the computer.
         /// </summary>
-        public static string tsReboot {
+        internal static string tsReboot {
             get {
                 return ResourceManager.GetString("tsReboot", resourceCulture);
             }
@@ -369,7 +379,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Power off the computer.
         /// </summary>
-        public static string tsShutdown {
+        internal static string tsShutdown {
             get {
                 return ResourceManager.GetString("tsShutdown", resourceCulture);
             }
@@ -378,7 +388,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Sleep the computer.
         /// </summary>
-        public static string tsSleep {
+        internal static string tsSleep {
             get {
                 return ResourceManager.GetString("tsSleep", resourceCulture);
             }
@@ -387,7 +397,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Only support Windows Vista or above.
         /// </summary>
-        public static string tsSupportVistaAbove {
+        internal static string tsSupportVistaAbove {
             get {
                 return ResourceManager.GetString("tsSupportVistaAbove", resourceCulture);
             }
@@ -396,7 +406,7 @@ namespace PowerMenuWPF.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Set timeout before processing power cycle.
         /// </summary>
-        public static string tsTimeout {
+        internal static string tsTimeout {
             get {
                 return ResourceManager.GetString("tsTimeout", resourceCulture);
             }
