@@ -6,7 +6,7 @@
         xmlns:properties="clr-namespace:PowerMenuWPF.Properties" 
         xmlns:local="clr-namespace:PowerMenuWPF"
         mc:Ignorable="d"
-        Title="{x:Static properties:Resources.AppTitle}" Height="450" Width="450" Opacity="0.895" ResizeMode="NoResize" SnapsToDevicePixels="True" WindowStartupLocation="CenterScreen" Topmost="True" Closing="Window_Closing">
+        Title="{x:Static properties:Resources.AppTitle}" Height="450" Width="450" Opacity="0.895" ResizeMode="NoResize" SnapsToDevicePixels="True" WindowStartupLocation="CenterScreen" Topmost="True" Closing="Window_Closing" Icon="pack://application:,,,/Resources/app-icons.png">
     <DockPanel>
         <Menu IsMainMenu="True" DockPanel.Dock="Top">
             <MenuItem Header="{x:Static properties:Resources.muControl}">
