@@ -52,39 +52,39 @@
         </trans-unit>
         <trans-unit id="Resx/tsTimeout" translate="yes" xml:space="preserve">
           <source>Set timeout before processing power cycle</source>
-          <target state="new">Set timeout before processing power cycle</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[66D5D][!!_Śéт ťíméóµţ вęƒôŕè þŗôčéšşįηğ рôẃêŕ ćУċļę_!!!!!!!!!!!!]</target>
         </trans-unit>
         <trans-unit id="Resx/tsSupportVistaAbove" translate="yes" xml:space="preserve">
           <source>Only support Windows Vista or above</source>
-          <target state="new">Only support Windows Vista or above</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[53DEC][!!_Óηĺŷ śúþрóŗť Ẁįήðóẃś Víśтâ õѓ àБòνè_!!!!!!!!!!]</target>
         </trans-unit>
         <trans-unit id="Resx/tsSleep" translate="yes" xml:space="preserve">
           <source>Sleep the computer</source>
-          <target state="new">Sleep the computer</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[60BD4][!!_Ŝľèèр ťĥé ċòмрûţèŕ_!!!!!!]</target>
         </trans-unit>
         <trans-unit id="Resx/tsShutdown" translate="yes" xml:space="preserve">
           <source>Power off the computer</source>
-          <target state="new">Power off the computer</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[23BC3][!!_Рôẁèŗ óƒƒ ťћè ĉômрúţęѓ_!!!!!!]</target>
         </trans-unit>
         <trans-unit id="Resx/tsReboot" translate="yes" xml:space="preserve">
           <source>Reboot the computer</source>
-          <target state="new">Reboot the computer</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[1B0A6][!!_Ѓèьôôţ тћê ćòмрûťèѓ_!!!!!!]</target>
         </trans-unit>
         <trans-unit id="Resx/tsLogoff" translate="yes" xml:space="preserve">
           <source>Log off from the computer</source>
-          <target state="new">Log off from the computer</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[85270][!!_Ľõġ õƒƒ ƒѓóм τђé ĉõмрúťêř_!!!!!!!!]</target>
         </trans-unit>
         <trans-unit id="Resx/tsLock" translate="yes" xml:space="preserve">
           <source>Lock the computer</source>
-          <target state="new">Lock the computer</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[CD1F7][!!_Ľôćќ тħé ćômрûţęŕ_!!!!!!]</target>
         </trans-unit>
         <trans-unit id="Resx/tsHibernate" translate="yes" xml:space="preserve">
           <source>Hibernate the computer</source>
-          <target state="new">Hibernate the computer</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[9499D][!!_Ηìвèѓиãţê тĥê ćóмρùтéŗ_!!!!!!]</target>
         </trans-unit>
         <trans-unit id="Resx/tsConfirmMsg" translate="yes" xml:space="preserve">
           <source>Show confirmation message before processing power cycle</source>
-          <target state="new">Show confirmation message before processing power cycle</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[C38C4][!!_Şħóẃ ćõηƒìřmàţìõй męşŝáğę вęƒõřê ρѓóċęŝśíηĝ ρòẁèѓ ċУĉĺè_!!!!!!!!!!!!!!!!]</target>
         </trans-unit>
         <trans-unit id="Resx/strShutdownComment" translate="yes" xml:space="preserve">
           <source>The computer is going to be turned off. Please save and close all opening files.</source>
@@ -96,8 +96,8 @@
         </trans-unit>
         <trans-unit id="Resx/strInfoTitle" translate="yes" xml:space="preserve">
           <source>Information</source>
-          <target state="needs-review-translation" state-qualifier="mt-suggestion">[FC906][!!_Ìηƒómáťíóή_!!]</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
-        </trans-unit>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[FC906][!!_Ìηƒómáťíóή_!!]</target>
+          </trans-unit>
         <trans-unit id="Resx/strConfirmSleep" translate="yes" xml:space="preserve">
           <source>Are you sure to sleep the computer?</source>
           <target state="signed-off" state-qualifier="mt-suggestion">[9F632][!!_Ãѓê Уóú ŝùŗé ťõ ŝĺèęþ τħę čõмрúτęѓ?_!!!!!!!!!!]</target>

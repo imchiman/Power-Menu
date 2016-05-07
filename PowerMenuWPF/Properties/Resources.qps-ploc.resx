@@ -182,7 +182,6 @@
   </data>
   <data name="strInfoTitle" xml:space="preserve">
     <value>[FC906][!!_Ìηƒómáťíóή_!!]</value>
-    <comment></comment>
   </data>
   <data name="strConfirmSleep" xml:space="preserve">
     <value>[9F632][!!_Ãѓê Уóú ŝùŗé ťõ ŝĺèęþ τħę čõмрúτęѓ?_!!!!!!!!!!]</value>
@@ -204,5 +203,32 @@
   </data>
   <data name="strComment" xml:space="preserve">
     <value>[276A4][!!_Ρóŵèѓ Мèηµ - Ûšêŕş Âćтîõή_!!!!!!!!]</value>
+  </data>
+  <data name="tsTimeout" xml:space="preserve">
+    <value>[66D5D][!!_Śéт ťíméóµţ вęƒôŕè þŗôčéšşįηğ рôẃêŕ ćУċļę_!!!!!!!!!!!!]</value>
+  </data>
+  <data name="tsSupportVistaAbove" xml:space="preserve">
+    <value>[53DEC][!!_Óηĺŷ śúþрóŗť Ẁįήðóẃś Víśтâ õѓ àБòνè_!!!!!!!!!!]</value>
+  </data>
+  <data name="tsSleep" xml:space="preserve">
+    <value>[60BD4][!!_Ŝľèèр ťĥé ċòмрûţèŕ_!!!!!!]</value>
+  </data>
+  <data name="tsShutdown" xml:space="preserve">
+    <value>[23BC3][!!_Рôẁèŗ óƒƒ ťћè ĉômрúţęѓ_!!!!!!]</value>
+  </data>
+  <data name="tsReboot" xml:space="preserve">
+    <value>[1B0A6][!!_Ѓèьôôţ тћê ćòмрûťèѓ_!!!!!!]</value>
+  </data>
+  <data name="tsLogoff" xml:space="preserve">
+    <value>[85270][!!_Ľõġ õƒƒ ƒѓóм τђé ĉõмрúťêř_!!!!!!!!]</value>
+  </data>
+  <data name="tsLock" xml:space="preserve">
+    <value>[CD1F7][!!_Ľôćќ тħé ćômрûţęŕ_!!!!!!]</value>
+  </data>
+  <data name="tsHibernate" xml:space="preserve">
+    <value>[9499D][!!_Ηìвèѓиãţê тĥê ćóмρùтéŗ_!!!!!!]</value>
+  </data>
+  <data name="tsConfirmMsg" xml:space="preserve">
+    <value>[C38C4][!!_Şħóẃ ćõηƒìřmàţìõй męşŝáğę вęƒõřê ρѓóċęŝśíηĝ ρòẁèѓ ċУĉĺè_!!!!!!!!!!!!!!!!]</value>
   </data>
 </root>
