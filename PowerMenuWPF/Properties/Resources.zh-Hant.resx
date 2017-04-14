@@ -1,110 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
-    Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
-    associated with the data types.
-    
-    Example:
-    
-    ... ado.net/XML headers & schema ...
-    <resheader name="resmimetype">text/microsoft-resx</resheader>
-    <resheader name="version">2.0</resheader>
-    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
-    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-        <value>[base64 mime encoded serialized .NET Framework object]</value>
-    </data>
-    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
-        <comment>This is a comment</comment>
-    </data>
-                
-    There are any number of "resheader" rows that contain simple 
-    name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
-    mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
-    extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
-    read any of the formats listed below.
-    
-    mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
-            : and then encoded with base64 encoding.
-    
-    mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-            : and then encoded with base64 encoding.
-
-    mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
-            : using a System.ComponentModel.TypeConverter
-            : and then encoded with base64 encoding.
-    -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
-    <xsd:element name="root" msdata:IsDataSet="true">
-      <xsd:complexType>
-        <xsd:choice maxOccurs="unbounded">
-          <xsd:element name="metadata">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
-              </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="assembly">
-            <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="data">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="resheader">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
-            </xsd:complexType>
-          </xsd:element>
-        </xsd:choice>
-      </xsd:complexType>
-    </xsd:element>
-  </xsd:schema>
   <resheader name="resmimetype">
     <value>text/microsoft-resx</value>
   </resheader>
@@ -117,6 +12,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AppName" xml:space="preserve">
+    <value>電源選單</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>電源選單</value>
+  </data>
   <data name="btnHibernate" xml:space="preserve">
     <value>休眠</value>
   </data>
@@ -135,8 +36,14 @@
   <data name="btnSleep" xml:space="preserve">
     <value>睡眠</value>
   </data>
+  <data name="cbxConfirmMsg" xml:space="preserve">
+    <value>確認訊息</value>
+  </data>
   <data name="gpOption" xml:space="preserve">
     <value>選項</value>
+  </data>
+  <data name="lblWaitTime" xml:space="preserve">
+    <value>等候時間 (秒):</value>
   </data>
   <data name="muAbout" xml:space="preserve">
     <value>關於</value>
@@ -150,76 +57,67 @@
   <data name="muHelp" xml:space="preserve">
     <value>說明</value>
   </data>
-  <data name="AppName" xml:space="preserve">
-    <value>電源選單</value>
-  </data>
-  <data name="AppTitle" xml:space="preserve">
-    <value>電源選單</value>
-  </data>
-  <data name="cbxConfirmMsg" xml:space="preserve">
-    <value>確認訊息</value>
-  </data>
-  <data name="lblWaitTime" xml:space="preserve">
-    <value>等候時間 (秒):</value>
-  </data>
-  <data name="strWarningTitle" xml:space="preserve">
-    <value>警告</value>
-  </data>
-  <data name="strShutdownComment" xml:space="preserve">
-    <value>電腦即將關閉。請儲存並關閉所有已開啟的檔案。</value>
-  </data>
-  <data name="strRebootComment" xml:space="preserve">
-    <value>電腦即將重新啟動。請儲存並關閉所有已開啟的檔案。</value>
-  </data>
-  <data name="strInfoTitle" xml:space="preserve">
-    <value>提示</value>
-  </data>
-  <data name="strConfirmSleep" xml:space="preserve">
-    <value>您是否要把這台電腦設為睡眠狀態?</value>
-  </data>
-  <data name="strConfirmShutdown" xml:space="preserve">
-    <value>您是否要關閉這台電腦?</value>
-  </data>
-  <data name="strConfirmReboot" xml:space="preserve">
-    <value>您是否要重新啟動這台電腦?</value>
-  </data>
-  <data name="strConfirmLogoff" xml:space="preserve">
-    <value>您是否要登出這台電腦?</value>
-  </data>
-  <data name="strConfirmLock" xml:space="preserve">
-    <value>您是否要鎖定這台電腦?</value>
+  <data name="strComment" xml:space="preserve">
+    <value>電源選單 - 使用者動作</value>
   </data>
   <data name="strConfirmHibernate" xml:space="preserve">
     <value>您是否要把這台電腦設為休眠狀態?</value>
   </data>
-  <data name="strComment" xml:space="preserve">
-    <value>電源選單 - 使用者動作</value>
+  <data name="strConfirmLock" xml:space="preserve">
+    <value>您是否要鎖定這台電腦?</value>
   </data>
-  <data name="tsTimeout" xml:space="preserve">
-    <value>設定執行電源控制前的等待時間</value>
+  <data name="strConfirmLogoff" xml:space="preserve">
+    <value>您是否要登出這台電腦?</value>
   </data>
-  <data name="tsSupportVistaAbove" xml:space="preserve">
-    <value>只支援 Windows Vista 或以上</value>
+  <data name="strConfirmReboot" xml:space="preserve">
+    <value>您是否要重新啟動這台電腦?</value>
   </data>
-  <data name="tsSleep" xml:space="preserve">
-    <value>把這台電腦設為睡眠狀態</value>
+  <data name="strConfirmShutdown" xml:space="preserve">
+    <value>您是否要關閉這台電腦?</value>
   </data>
-  <data name="tsShutdown" xml:space="preserve">
-    <value>關閉這台電腦</value>
+  <data name="strConfirmSleep" xml:space="preserve">
+    <value>您是否要把這台電腦設為睡眠狀態?</value>
   </data>
-  <data name="tsReboot" xml:space="preserve">
-    <value>重新啟動這台電腦</value>
+  <data name="strInfoTitle" xml:space="preserve">
+    <value>提示</value>
   </data>
-  <data name="tsLogoff" xml:space="preserve">
-    <value>登出這台電腦</value>
+  <data name="strRebootComment" xml:space="preserve">
+    <value>電腦即將重新啟動。請儲存並關閉所有已開啟的檔案。</value>
   </data>
-  <data name="tsLock" xml:space="preserve">
-    <value>鎖定這台電腦</value>
+  <data name="strShutdownComment" xml:space="preserve">
+    <value>電腦即將關閉。請儲存並關閉所有已開啟的檔案。</value>
+  </data>
+  <data name="strWarningTitle" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="tsConfirmMsg" xml:space="preserve">
+    <value>在執行電源控制前顯示確認訊息</value>
   </data>
   <data name="tsHibernate" xml:space="preserve">
     <value>把這台電腦設為休眠狀態</value>
   </data>
-  <data name="tsConfirmMsg" xml:space="preserve">
-    <value>在執行電源控制前顯示確認訊息</value>
+  <data name="tsLock" xml:space="preserve">
+    <value>鎖定這台電腦</value>
+  </data>
+  <data name="tsLogoff" xml:space="preserve">
+    <value>登出這台電腦</value>
+  </data>
+  <data name="tsReboot" xml:space="preserve">
+    <value>重新啟動這台電腦</value>
+  </data>
+  <data name="tsShutdown" xml:space="preserve">
+    <value>關閉這台電腦</value>
+  </data>
+  <data name="tsSleep" xml:space="preserve">
+    <value>把這台電腦設為睡眠狀態</value>
+  </data>
+  <data name="tsSupportVistaAbove" xml:space="preserve">
+    <value>只支援 Windows Vista 或以上</value>
+  </data>
+  <data name="tsTimeout" xml:space="preserve">
+    <value>設定執行電源控制前的等待時間</value>
+  </data>
+  <data name="app_icons" xml:space="preserve" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\app-icons.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en" original="POWERMENUWPF/PROPERTIES/RESOURCES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6799.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="POWERMENUWPF/PROPERTIES/RESOURCES.RESX" datatype="resx">
+        <trans-unit id="AppName" translate="yes" xml:space="preserve">
+          <source>Power Menu</source>
+          <target state="new">Power Menu</target>
+        </trans-unit>
+        <trans-unit id="AppTitle" translate="yes" xml:space="preserve">
+          <source>Power Menu</source>
+          <target state="new">Power Menu</target>
+        </trans-unit>
+        <trans-unit id="btnHibernate" translate="yes" xml:space="preserve">
+          <source>Hibernate</source>
+          <target state="new">Hibernate</target>
+        </trans-unit>
+        <trans-unit id="btnLock" translate="yes" xml:space="preserve">
+          <source>Lock</source>
+          <target state="new">Lock</target>
+        </trans-unit>
+        <trans-unit id="btnLogOff" translate="yes" xml:space="preserve">
+          <source>Log Off</source>
+          <target state="new">Log Off</target>
+        </trans-unit>
+        <trans-unit id="btnRestart" translate="yes" xml:space="preserve">
+          <source>Restart</source>
+          <target state="new">Restart</target>
+        </trans-unit>
+        <trans-unit id="btnShutDown" translate="yes" xml:space="preserve">
+          <source>Power Off</source>
+          <target state="new">Power Off</target>
+        </trans-unit>
+        <trans-unit id="btnSleep" translate="yes" xml:space="preserve">
+          <source>Sleep</source>
+          <target state="new">Sleep</target>
+        </trans-unit>
+        <trans-unit id="Developer" translate="yes" xml:space="preserve">
+          <source>CM Products</source>
+          <target state="new">CM Products</target>
+        </trans-unit>
+        <trans-unit id="cbxConfirmMsg" translate="yes" xml:space="preserve">
+          <source>Confirmation Message</source>
+          <target state="new">Confirmation Message</target>
+        </trans-unit>
+        <trans-unit id="gpOption" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target state="new">Options</target>
+        </trans-unit>
+        <trans-unit id="lblDeveloper" translate="yes" xml:space="preserve">
+          <source>Made by CM Products</source>
+          <target state="new">Made by CM Products</target>
+        </trans-unit>
+        <trans-unit id="lblWaitTime" translate="yes" xml:space="preserve">
+          <source>Waiting Time (in Second):</source>
+          <target state="new">Waiting Time (in Second):</target>
+        </trans-unit>
+        <trans-unit id="muAbout" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="new">About</target>
+        </trans-unit>
+        <trans-unit id="muControl" translate="yes" xml:space="preserve">
+          <source>Control</source>
+          <target state="new">Control</target>
+        </trans-unit>
+        <trans-unit id="muExit" translate="yes" xml:space="preserve">
+          <source>Exit</source>
+          <target state="new">Exit</target>
+        </trans-unit>
+        <trans-unit id="muHelp" translate="yes" xml:space="preserve">
+          <source>Help</source>
+          <target state="new">Help</target>
+        </trans-unit>
+        <trans-unit id="muLanguage" translate="yes" xml:space="preserve">
+          <source>Languages</source>
+          <target state="new">Languages</target>
+        </trans-unit>
+        <trans-unit id="strComment" translate="yes" xml:space="preserve">
+          <source>Power Menu - Users Action</source>
+          <target state="new">Power Menu - Users Action</target>
+        </trans-unit>
+        <trans-unit id="strConfirmHibernate" translate="yes" xml:space="preserve">
+          <source>Are you sure to hibernate the computer?</source>
+          <target state="new">Are you sure to hibernate the computer?</target>
+        </trans-unit>
+        <trans-unit id="strConfirmLock" translate="yes" xml:space="preserve">
+          <source>Are you sure to lock the computer?</source>
+          <target state="new">Are you sure to lock the computer?</target>
+        </trans-unit>
+        <trans-unit id="strConfirmLogoff" translate="yes" xml:space="preserve">
+          <source>Are you sure to log off from the computer?</source>
+          <target state="new">Are you sure to log off from the computer?</target>
+        </trans-unit>
+        <trans-unit id="strConfirmReboot" translate="yes" xml:space="preserve">
+          <source>Are you sure to reboot the computer?</source>
+          <target state="new">Are you sure to reboot the computer?</target>
+        </trans-unit>
+        <trans-unit id="strConfirmShutdown" translate="yes" xml:space="preserve">
+          <source>Are you sure to shutdown the computer?</source>
+          <target state="new">Are you sure to shutdown the computer?</target>
+        </trans-unit>
+        <trans-unit id="strConfirmSleep" translate="yes" xml:space="preserve">
+          <source>Are you sure to sleep the computer?</source>
+          <target state="new">Are you sure to sleep the computer?</target>
+        </trans-unit>
+        <trans-unit id="strInfoTitle" translate="yes" xml:space="preserve">
+          <source>Information</source>
+          <target state="new">Information</target>
+        </trans-unit>
+        <trans-unit id="strRebootComment" translate="yes" xml:space="preserve">
+          <source>The computer is going to be restarted. Please save and close all opening files.</source>
+          <target state="new">The computer is going to be restarted. Please save and close all opening files.</target>
+        </trans-unit>
+        <trans-unit id="strShutdownComment" translate="yes" xml:space="preserve">
+          <source>The computer is going to be turned off. Please save and close all opening files.</source>
+          <target state="new">The computer is going to be turned off. Please save and close all opening files.</target>
+        </trans-unit>
+        <trans-unit id="strWarningTitle" translate="yes" xml:space="preserve">
+          <source>Warning</source>
+          <target state="new">Warning</target>
+        </trans-unit>
+        <trans-unit id="tsConfirmMsg" translate="yes" xml:space="preserve">
+          <source>Show confirmation message before processing power cycle</source>
+          <target state="new">Show confirmation message before processing power cycle</target>
+        </trans-unit>
+        <trans-unit id="tsHibernate" translate="yes" xml:space="preserve">
+          <source>Hibernate the computer</source>
+          <target state="new">Hibernate the computer</target>
+        </trans-unit>
+        <trans-unit id="tsLock" translate="yes" xml:space="preserve">
+          <source>Lock the computer</source>
+          <target state="new">Lock the computer</target>
+        </trans-unit>
+        <trans-unit id="tsLogoff" translate="yes" xml:space="preserve">
+          <source>Log off from the computer</source>
+          <target state="new">Log off from the computer</target>
+        </trans-unit>
+        <trans-unit id="tsReboot" translate="yes" xml:space="preserve">
+          <source>Reboot the computer</source>
+          <target state="new">Reboot the computer</target>
+        </trans-unit>
+        <trans-unit id="tsShutdown" translate="yes" xml:space="preserve">
+          <source>Power off the computer</source>
+          <target state="new">Power off the computer</target>
+        </trans-unit>
+        <trans-unit id="tsSleep" translate="yes" xml:space="preserve">
+          <source>Sleep the computer</source>
+          <target state="new">Sleep the computer</target>
+        </trans-unit>
+        <trans-unit id="tsSupportVistaAbove" translate="yes" xml:space="preserve">
+          <source>Only support Windows Vista or above</source>
+          <target state="new">Only support Windows Vista or above</target>
+        </trans-unit>
+        <trans-unit id="tsTimeout" translate="yes" xml:space="preserve">
+          <source>Set timeout before processing power cycle</source>
+          <target state="new">Set timeout before processing power cycle</target>
+        </trans-unit>
+        <trans-unit id="app_icons" translate="yes" extype="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+          <source>..\resources\app-icons.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="needs-review-translation">..\resources\app-icons.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

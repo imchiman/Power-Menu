@@ -35,6 +35,7 @@ Name: "quicklaunchicon"; Description: "{cm:CreateQuickLaunchIcon}"; GroupDescrip
 
 [Files]
 Source: "D:\Users\Chiman\Documents\Visual Studio 2015\Projects\PowerMenuWPF\PowerMenuWPF\bin\Release\PowerMenu.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "bin\Release\en\PowerMenu.resources.dll"; DestDir: "{app}\en\"; Flags: ignoreversion
 Source: "bin\Release\zh-Hant\PowerMenu.resources.dll"; DestDir: "{app}\zh-Hant\"; Flags: ignoreversion
 Source: "D:\Users\Chiman\Documents\Visual Studio 2015\Projects\PowerMenuWPF\PowerMenuWPF\bin\Release\PowerMenu.exe.config"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files

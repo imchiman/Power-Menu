@@ -6,7 +6,6 @@ using System.Diagnostics;
 using System.Globalization;
 using System.Linq;
 using System.Threading;
-using System.Threading.Tasks;
 using System.Windows;
 
 namespace PowerMenuWPF
@@ -16,24 +15,14 @@ namespace PowerMenuWPF
     /// </summary>
     public partial class App : Application
     {
-        private CultureInfo cultureOverride = new CultureInfo("qps-PLOC");
-
         public App()
         {
-            if (Debugger.IsAttached == true && cultureOverride != null)
-            {
-                Thread.CurrentThread.CurrentUICulture = cultureOverride;
-                Thread.CurrentThread.CurrentCulture = cultureOverride;
-            }
-            else
-            {
-                string lang = (string)Utils.getSettingValue("lang");
-                if (lang.Contains("zh"))
-                    lang = "zh-Hant";
+            string lang = (string)Utils.getSettingValue("lang");
+            if (lang.Contains("zh"))
+                lang = "zh-Hant";
 
-                Thread.CurrentThread.CurrentUICulture = new CultureInfo(lang);
-                Thread.CurrentThread.CurrentCulture = new CultureInfo(lang);
-            }
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo(lang);
+            Thread.CurrentThread.CurrentCulture = new CultureInfo(lang);
         }
     }
 }
